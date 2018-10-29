@@ -1,0 +1,13 @@
+Folder Contents
+Code_Filter
+All data required for running the EKF and doing reconstructions is contained in this folder.
+To run the EKF:	
+	Run 'DeriveEquations_run/walk.m'
+	Run 'ekf_run/walk.m'
+	Run 'KalmanSmoother.m'
+To do reconstruction:
+	Filter recon: Run 'WriteVid_filter.m'
+	External recon: Run 'WriteVid.m'
+Code_Sync
+	'ExtractFrame.m': extracts frames from videos
+	'framesToVid.m': compiles frames as videos
